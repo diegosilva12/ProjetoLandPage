@@ -41,31 +41,56 @@
 
 .imagem h1 {
 	text-transform: uppercase;
-	font-weight: bold;
 	text-align: right;
-	color: blue;
-	font-size: 50px;
-	padding-top: 100px;
+	color: orange;
+	font-size: 36px;
+	left: 200px;
+	
 
 }
 
-.fundo p {
-	text-align: right;
+.imagem p {
+	position: absolute;
+	text-align: center;
+	padding-left: 500px;
+	font-size: 18px;
 }
 
 .card-img-barra{
-	z-index: 0;
-	max-height: 540px;
-	max-width: 900px;
-    padding-top: 220px;
+	background-position: center;
 
 }
 
 .card-img-celular{
 	position: absolute;
-	z-index: 1;
 	max-width: 250px;
 	max-height: 500px;
 	left:80px; 
 	top: 0px;
 }
+/*
+.card-img-download{
+	position: absolute;
+	z-index: 2;
+	left: 420px;
+	top: 320px;
+	max-height: 65px;
+
+}
+
+.card-img-apple{
+	position: absolute;
+	z-index: 3;
+	left: 425px;
+	top: 410px;
+	max-height: 40px;
+}
+	
+.card-img-android{
+	position: absolute;
+	left: 565px;
+	top: 410px;
+	max-height: 40px;
+}
+
+*/
