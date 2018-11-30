@@ -7770,6 +7770,9 @@ html {
   font-size: 36px;
   left: 200px; }
 
+.row-with-background {
+  background-image: url("assetsimg/barra.png"); }
+
 .imagem p {
   position: absolute;
   text-align: center;
