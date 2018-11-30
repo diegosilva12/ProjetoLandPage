@@ -20,7 +20,9 @@
 @import '5-layout/index';
 
 
-.card-img-overlay h1{
+.card-title h1{
+	flex-direction: column;
+	text-transform: uppercase;
 	padding: 0px;
 	font-size: 51px;
 	text-align: left;
