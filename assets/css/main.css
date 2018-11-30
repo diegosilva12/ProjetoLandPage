@@ -7750,5 +7750,42 @@ html {
 
 /* Custom Mixins -------------------- */
 /* Base Styles -------------------- */
+.card-img-overlay h1 {
+  flex-direction: column;
+  text-transform: uppercase;
+  padding: 170px;
+  font-size: 45px;
+  text-align: left; }
+
+.fim p {
+  font-weight: bold; }
+
+.teste {
+  background-color: green; }
+
+.imagem h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: right;
+  color: blue;
+  font-size: 50px;
+  padding-top: 100px; }
+
+.fundo p {
+  text-align: right; }
+
+.card-img-barra {
+  z-index: 0;
+  max-height: 540px;
+  max-width: 900px;
+  padding-top: 220px; }
+
+.card-img-celular {
+  position: absolute;
+  z-index: 1;
+  max-width: 250px;
+  max-height: 500px;
+  left: 80px;
+  top: 0px; }
 
 /*# sourceMappingURL=main.css.map */
