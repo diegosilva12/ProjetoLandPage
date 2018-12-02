@@ -7763,57 +7763,34 @@ html {
 .teste {
   background-color: green; }
 
-.imagem h1 {
+h1 {
   text-transform: uppercase;
-  text-align: right;
+  text-align: center;
   color: orange;
   font-size: 36px;
   left: 200px; }
 
 .row-with-background {
-  background-image: url("assetsimg/barra.png"); }
+  background-image: url("../img/barra.png");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 65%; }
 
-.imagem p {
-  position: absolute;
+p {
   text-align: center;
-  padding-left: 500px;
   font-size: 18px; }
 
-.card-img-barra {
-  background-position: center; }
+.celular {
+  max-width: 450px;
+  max-height: 550px;
+  padding-left: 75px;
+  padding-top: 0px; }
 
-.card-img-celular {
-  position: absolute;
-  max-width: 250px;
-  max-height: 500px;
-  left: 80px;
-  top: 0px; }
+.card-img-apple {
+  padding-left: 50px;
+  padding-top: 250px; }
 
-/*
-.card-img-download{
-	position: absolute;
-	z-index: 2;
-	left: 420px;
-	top: 320px;
-	max-height: 65px;
-
-}
-
-.card-img-apple{
-	position: absolute;
-	z-index: 3;
-	left: 425px;
-	top: 410px;
-	max-height: 40px;
-}
-	
-.card-img-android{
-	position: absolute;
-	left: 565px;
-	top: 410px;
-	max-height: 40px;
-}
-
-*/
+.card-img-android {
+  padding-top: 250px; }
 
 /*# sourceMappingURL=main.css.map */
