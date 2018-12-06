@@ -7753,15 +7753,13 @@ html {
 .card-img-overlay h1 {
   flex-direction: column;
   text-transform: uppercase;
-  padding: 170px;
+  margin-top: 250px;
+  margin-left: 50px;
   font-size: 45px;
   text-align: left; }
 
 .fim p {
   font-weight: bold; }
-
-.teste {
-  background-color: green; }
 
 h1 {
   text-transform: uppercase;
@@ -7782,15 +7780,28 @@ p {
 
 .celular {
   max-width: 450px;
-  max-height: 550px;
-  padding-left: 75px;
-  padding-top: 0px; }
+  max-height: 600px;
+  padding-left: 75px; }
 
 .card-img-apple {
   padding-left: 50px;
-  padding-top: 250px; }
+  padding-top: 100px; }
 
 .card-img-android {
-  padding-top: 250px; }
+  padding-top: 100px; }
+
+.download {
+  padding-left: 75px;
+  padding-top: 200px; }
+
+.btn {
+  padding: 5px 75px;
+  font-weight: bold;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 255px;
+  margin-left: 80px;
+  font-size: 45px;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */
