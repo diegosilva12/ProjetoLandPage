@@ -20,25 +20,20 @@
 @import '5-layout/index';
 
 
-.card-img-overlay h1{
-	flex-direction: column;
+header{
+	background-image: url("../img/chamada.png");
+	padding: 150px;
+	margin-left: 400px;
+	background-repeat: no-repeat;
+}
+.header-topo h1{
 	text-transform: uppercase;
-	margin-top: 250px;
-	margin-left: 50px;
+	color: white;
 	font-size: 45px;
-	text-align: left;
-}
-
-.fim p{
-	font-weight: bold;
+	margin-right: 1050px;
+	margin-top: 50px;
 	
 }
-
-.text-center p{
-	
-}
-
-
 
 h1 {
 	text-transform: uppercase;
@@ -46,8 +41,19 @@ h1 {
 	color: orange;
 	font-size: 36px;
 	left: 200px;
-	
 
+}
+
+.relogio{
+	max-width: 50%;
+}
+
+.lupa {
+	max-width: 50%;
+}
+
+.boneco{
+	max-width: 50%;
 }
 
 .row-with-background {
@@ -56,7 +62,6 @@ h1 {
 	background-repeat: repeat-x;
 	background-size: 65%;
 	
-
 }
 
 p {
@@ -90,9 +95,8 @@ p {
 	padding: 5px 75px;
 	font-weight: bold;
 	border-radius: 10px;
-	display: inline-block;
-	margin-top: 255px;
+	margin-top: 150px;
 	margin-left: 80px;
-	font-size: 45px;
+	font-size: 35px;
 	text-transform: uppercase;
 }

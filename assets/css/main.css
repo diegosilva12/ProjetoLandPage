@@ -7750,16 +7750,18 @@ html {
 
 /* Custom Mixins -------------------- */
 /* Base Styles -------------------- */
-.card-img-overlay h1 {
-  flex-direction: column;
-  text-transform: uppercase;
-  margin-top: 250px;
-  margin-left: 50px;
-  font-size: 45px;
-  text-align: left; }
+header {
+  background-image: url("../img/chamada.png");
+  padding: 150px;
+  margin-left: 400px;
+  background-repeat: no-repeat; }
 
-.fim p {
-  font-weight: bold; }
+.header-topo h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 45px;
+  margin-right: 1050px;
+  margin-top: 50px; }
 
 h1 {
   text-transform: uppercase;
@@ -7767,6 +7769,15 @@ h1 {
   color: orange;
   font-size: 36px;
   left: 200px; }
+
+.relogio {
+  max-width: 50%; }
+
+.lupa {
+  max-width: 50%; }
+
+.boneco {
+  max-width: 50%; }
 
 .row-with-background {
   background-image: url("../img/barra.png");
@@ -7798,10 +7809,9 @@ p {
   padding: 5px 75px;
   font-weight: bold;
   border-radius: 10px;
-  display: inline-block;
-  margin-top: 255px;
+  margin-top: 150px;
   margin-left: 80px;
-  font-size: 45px;
+  font-size: 35px;
   text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */
