@@ -23,15 +23,15 @@
 header{
 	background-image: url("../img/chamada.png");
 	padding: 150px;
-	margin-left: 400px;
+	background-position: center; 	
 	background-repeat: no-repeat;
 }
 .header-topo h1{
 	text-transform: uppercase;
 	color: white;
 	font-size: 45px;
-	margin-right: 1050px;
-	margin-top: 50px;
+	text-align: left;
+	margin-left: 50px;
 	
 }
 
@@ -70,29 +70,21 @@ p {
 }
 
 .celular{
-	max-width: 450px;
-	max-height: 600px;
+	max-width: 85%;
 	padding-left: 75px; 
 	
 }
 .card-img-apple{
 	padding-left: 50px;
-	padding-top: 100px;
+	
 	
 }
 	
 .card-img-android{
 	padding-top: 100px;
-}
-
-.download{
-	padding-left: 75px;
-	padding-top: 200px;
-		
-}
+}	
 
 .btn{
-	padding: 5px 75px;
 	font-weight: bold;
 	border-radius: 10px;
 	margin-top: 150px;
