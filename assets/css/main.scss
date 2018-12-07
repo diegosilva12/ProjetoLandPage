@@ -31,19 +31,30 @@ header{
 	color: white;
 	font-size: 45px;
 	text-align: left;
-	margin-left: 50px;
+	margin-left: 51.5px;
 	
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
 }
 
 h1 {
 	text-transform: uppercase;
 	text-align: center;
-	color: orange;
+	color: #ec661b;
 	font-size: 36px;
 	left: 200px;
 
 }
-
+@media(max-width: 500px){
+	.header-topo{
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 20;
+	}
+}
 .relogio{
 	max-width: 50%;
 }
@@ -64,10 +75,6 @@ h1 {
 	
 }
 
-p {
-	text-align: center;
-	font-size: 18px;
-}
 
 .celular{
 	max-width: 85%;
@@ -75,13 +82,16 @@ p {
 	
 }
 .card-img-apple{
-	padding-left: 50px;
-	
+	max-width: 110%;
+	padding-top: 20px;
+	display: inline-flex;
 	
 }
 	
 .card-img-android{
-	padding-top: 100px;
+	max-width: 100%;
+	padding-top: 20px;	
+	display: inline-flex;
 }	
 
 .btn{
@@ -89,6 +99,6 @@ p {
 	border-radius: 10px;
 	margin-top: 150px;
 	margin-left: 80px;
-	font-size: 35px;
+	font-size: 30px;
 	text-transform: uppercase;
 }
